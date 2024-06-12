@@ -1,0 +1,65 @@
+{
+    "clients": [
+        {
+            "nodeId": "Master",
+            "moduleId": "smart_auth",
+            "clientId": "appsphere",
+            "clientName": "App-Gallery",
+            "enabled": true,
+            "accessTokenValiditySeconds": 3600,
+            "allowedGrantTypes": [
+                "AUTHORIZATION_CODE",
+                "REFRESH_TOKEN",
+                "JWT_BEARER"
+            ],
+            "alwaysRequireApproval": false,
+            "attestationAccepted": false,
+            "autoApproveScopes": [
+                "cdr_all_user_authorities",
+                "launch/practitioner",
+                "online_access",
+                "openid",
+                "profile"
+            ],
+            "autoGrantScopes": [
+                "cdr_all_user_authorities"
+            ],
+            "canIntrospectAnyTokens": false,
+            "canIntrospectOwnTokens": false,
+            "canReissueTokens": false,
+            "clientSecrets": [],
+            "createdByAppSphere": false,
+            "fixedScope": false,
+            "jwksUrl": "",
+            "permissions": [
+                {
+                    "permission": "ACCESS_ADMIN_JSON"
+                },
+                {
+                    "permission": "OPENID_CONNECT_VIEW_CLIENT_LIST"
+                },
+                {
+                    "permission": "OPENID_CONNECT_EDIT_CLIENT"
+                },
+                {
+                    "permission": "OPENID_CONNECT_ADD_CLIENT"
+                }
+            ],
+            "publicJwks": "",
+            "refreshTokenValiditySeconds": 86400,
+            "registeredRedirectUris": [
+                "http://localhost:9300/appsphere/console/",
+                "http://localhost:9300/appsphere/portal/"
+            ],
+            "rememberApprovedScopes": false,
+            "scopes": [
+                "launch/practitioner",
+                "online_access",
+                "openid",
+                "profile"
+            ],
+            "secretClientCanChange": false,
+            "secretRequired": false
+        }
+    ]
+}
