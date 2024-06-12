@@ -57,10 +57,7 @@ INFO  M: R: ca.cdr.app.AppLauncher - Smile, we're up and running! :)
 
 ### Accessing the Admin Web page
 
-To access the Admin Web page, go to <localhost:9100> on a browser of your choice, you will be greeted with a sign-in page. Enter the following credentials:
-
-* `username` : `admin`
-* `password` : `password`
+To access the Admin Web page, go to <localhost:9100> on a browser of your choice, you will be greeted with a sign-in page where you can use the default admin credentials.
 
 After successfully signing in, you will be redirected to the module config page. On the left hand side of the page, you should see a side bar with a list of modules, sorted into the Master node. Under the `Administrative Modules` header, you should see a module named `app_galery` with the port `9300`
 
