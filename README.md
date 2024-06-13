@@ -1,4 +1,4 @@
-# SmileCDR-with-Appsphere-Starter
+# SmileCDR-with-appSphere-Starter
 A running configuration for a dockerized SmileCDR image with an appsphere module set up
 
 ## Summary
