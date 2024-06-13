@@ -23,7 +23,7 @@ A running configuration for a dockerized SmileCDR image with an appsphere module
 
 ## Setup
 
-Before running SmileCDR, you will need to modify the `Dockerfile` used to build the container used. The code snippet below shows where you should enter your local image:tag (replace `<imagename>` and `<imagename>`):
+Before running SmileCDR, you will need to modify the `Dockerfile` used to build the container used. The code snippet below shows where you should enter your local image:tag (replace `<imagename>` and `<imagetag>`):
 ``` Dockerfile
 # Use base Smile CDR image as parent image. 
 # Change this if the field entry does not match your local SmileCDR image
