@@ -1,0 +1,83 @@
+{
+"users": [
+        {
+            "pid": 1,
+            "nodeId": "Master",
+            "moduleId": "local_security",
+            "username": "ADMIN",
+            "password": "password",
+            "familyName": "GenericUser",
+            "givenName": "Admin",
+            "lastActive": "2024-06-19T00:38:27.330+00:00",
+            "lastConnected": "2024-06-19T00:45:22.371+00:00",
+            "accountLocked": false,
+            "systemUser": false,
+            "authorities": [
+                {
+                    "permission": "ROLE_SUPERUSER"
+                }
+            ],
+            "accountDisabled": false,
+            "failedLoginAttempts": 0,
+            "external": false,
+            "serviceAccount": false,
+            "twoFactorAuthStatus": "NO_KEY_DEFINED"
+        },
+        {
+            "pid": 2,
+            "nodeId": "Master",
+            "moduleId": "local_security",
+            "username": "ANONYMOUS",
+            "familyName": "Anonymous",
+            "givenName": "Anonymous",
+            "lastActive": "2024-06-18T02:40:29.674+00:00",
+            "accountLocked": false,
+            "systemUser": true,
+            "authorities": [
+                {
+                    "permission": "ROLE_ANONYMOUS"
+                },
+                {
+                    "permission": "FHIR_CAPABILITIES"
+                }
+            ],
+            "accountDisabled": false,
+            "failedLoginAttempts": 0,
+            "external": false,
+            "serviceAccount": false,
+            "twoFactorAuthStatus": "NO_KEY_DEFINED"
+        },
+        {
+            "pid": 102,
+            "nodeId": "Master",
+            "moduleId": "local_security",
+            "username": "JOHN",
+            "password": "Password123$",
+            "familyName": "Doe",
+            "givenName": "John",
+            "lastActive": "2024-06-14T03:48:31.139+00:00",
+            "lastConnected": "2024-06-14T03:48:31.399+00:00",
+            "accountLocked": false,
+            "systemUser": false,
+            "authorities": [
+                {
+                    "permission": "FHIR_READ_ALL_IN_COMPARTMENT",
+                    "argument": "Patient/patient-a"
+                }
+            ],
+            "defaultLaunchContexts": [
+                {
+                    "contextType": "patient",
+                    "resourceId": "patient-a"
+                }
+            ],
+            "accountDisabled": false,
+            "email": "john.doe@personal.com",
+            "failedLoginAttempts": 0,
+            "external": false,
+            "serviceAccount": false,
+            "twoFactorAuthStatus": "NO_KEY_DEFINED"
+        }
+
+]
+}

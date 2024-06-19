@@ -60,6 +60,44 @@
             ],
             "secretClientCanChange": false,
             "secretRequired": false
+        },
+        {
+            "pid": 2,
+            "nodeId": "Master",
+            "moduleId": "smart_auth",
+            "clientId": "patient_app_demo",
+            "clientName": "SMART Patient",
+            "enabled": true,
+            "accessTokenValiditySeconds": 3600,
+            "allowedGrantTypes": [
+                "AUTHORIZATION_CODE"
+            ],
+            "alwaysRequireApproval": false,
+            "attestationAccepted": false,
+            "canIntrospectAnyTokens": false,
+            "canIntrospectOwnTokens": false,
+            "canReissueTokens": false,
+            "clientSecrets": [],
+            "createdByAppSphere": false,
+            "fixedScope": false,
+            "jwksUrl": "",
+            "publicJwks": "",
+            "refreshTokenValiditySeconds": 86400,
+            "registeredRedirectUris": [
+                "http://127.0.0.1:9201/",
+                "http://127.0.0.1:9201/index.html",
+                "http://localhost:9201/",
+                "http://localhost:9201/index.html"
+            ],
+            "rememberApprovedScopes": false,
+            "scopes": [
+                "launch/patient",
+                "offline_access",
+                "openid",
+                "patient/*.read"
+            ],
+            "secretClientCanChange": false,
+            "secretRequired": false
         }
     ]
 }
